@@ -1,13 +1,19 @@
-#header{
+.header{
     text-align: center;
     margin-bottom: 20px;
 }
-#content{
+.content{
     background-color: #e0e2e4;
     text-align:center;
     margin-top: 50px;
+    display: inline-block;
 }
-#cnt1, #cnt2, #cnt3 {
+.container {
     background-color: white;
     margin: 20px;
+    border-radius: 3px;
+}
+img{
+    width:500px;
+    height:500px;
 }
