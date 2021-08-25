@@ -1,19 +1,40 @@
-.header{
-    text-align: center;
-    margin-bottom: 20px;
+body{
+    background: #bdbdbd;
+    margin: 0;
 }
-.content{
-    background-color: #e0e2e4;
-    text-align:center;
-    margin-top: 50px;
-    display: inline-block;
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+.post{
+    background: white;
+    margin-top: 10px;
+}
+.post img{
+    width: 100%;
+}
+.post h2, .post p{
+    padding: 10px;
+    margin: 0;
 }
 .container {
-    background-color: white;
-    margin: 20px;
-    border-radius: 3px;
+    width: 600px;
+    margin: auto;
 }
-img{
-    width:500px;
-    height:500px;
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+.post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: #bdbdbd;
 }
